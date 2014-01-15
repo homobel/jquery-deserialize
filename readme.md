@@ -1,14 +1,14 @@
 
 # New feature added:
 
-* haml
+** haml:
 
 	form
 		// ...
 		input(type='checkbox' name='access[role][rule]')
 		// ...
 
-* js
+** js:
 
 	$('form').deserialize({
 		// ...
