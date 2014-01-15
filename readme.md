@@ -1,3 +1,27 @@
+
+# New feature added:
+
+* haml
+
+	form
+		// ...
+		input(type='checkbox' name='access[role][rule]')
+		// ...
+
+* js
+
+	$('form').deserialize({
+		// ...
+		access: [
+			role: {
+				rule: 'on'
+			}
+		]
+		// ...
+	}); // maches the input
+
+Other code left intact.
+
 # jQuery.deserialize [#8980](http://bugs.jquery.com/ticket/8980)
 
     $("form").deserialize(data[, options]);
