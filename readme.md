@@ -12,11 +12,11 @@
 
 	$('form').deserialize({
 		// ...
-		access: [
+		access: {
 			role: {
 				rule: 'on'
 			}
-		]
+		}
 		// ...
 	}); // maches the input
 
